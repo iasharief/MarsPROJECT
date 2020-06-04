@@ -2,83 +2,106 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Webpage</title>
+        <title>Mars</title>
         <style>
        
         .main{
            border-width: 5px;
-           border-style: dotted;
-           border-color: #c1440e;
-           background-color: #e77d11;
+           border-style: groove;
+           border-color: grey;
+           background-image: url(https://i.postimg.cc/HWzD5Wbs/mars-div-landscape-1-library-try2get-MS.png);
            border-collapse: separate;
            border-spacing: 15px;
            text-align: center;
           
+          
             
             }   
         .starter {
-            color: #c1440e;
-            font-family: Impact, Charcoal, sans-serif;
+            color: white;
+            font-family: "Lucida Console", Monaco, monospace;
+            
            }
         .description {
-        	color: #c1440e;
+        	color: white; 
+            font-family: "Lucida Console", Monaco, monospace;
+            
             
            
         }
          
         .Header {
-        	color: #c15b0e;
-            font-family: sans-serif;
+        	color: black;
+            font-family: times;
             
         }
         ul.Mars-List {list-style-type: square;}
         
         .Mars-List {
-        color: #c15b0e;
+        color: black;
         }
         
         #Mars-Surface_Img {
         float: right;
         width:25%;
-        margin-left: 10px
+        margin-left: 30px;
+        margin-bottom: 30px;
+        
         }
         #Image1-Credit {
         font-size: 10px;
         text-align: right;
         
         }
+        M-Fact {
+        font-family: Frutiger;
+        }
+        #Rover-video1{
+        float: right;
+        width:25%;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        }
         </style>
     </head>
     <body>
         <div class="main">
         <h1 class="starter">Mars</h1>
-        <h4 class="description">Hello, and welcome to my webpage! Here, you can learn a lot of random facts about Mars, whether they are about the planet itself, rovers, or flybies.</h4>
+        <h4 class="description">Hello, and welcome to my webpage! Here, you can learn a lot of random facts about Mars, whether they are about the planet itself, rovers, flybies, or more!</h4>
         </div>
         
         
         <h3 class="Header">The Red Planet</h3>
         <img id = "Mars-Surface_Img" src="https://scx1.b-cdn.net/csz/news/800/2020/astrobiologi.jpg" alt="phys.org">
+        
         <ul class="Mars-List">
+            <h3>What is Mars? <br> Mars is the 4th planet away from the sun, meaning it is right after Earth. It can be called "The Red Planet" as well as "Mars" because of its red surface made of iron oxide, better known as rust. Mars has two moons named Phobos and Deimos.</h3>
         	<li class="M-Fact">Mars is 95% Carbon Dioxide, so we would die if we ran out of oxygen (depends how long we are there)
 </li>
         	<li class="M-Fact">We need water, but the average temperature is -65º F, so it is either the water or us that will freeze.
 </li>
         	<li class="M-Fact">Sunrises and Sunsets on Mars are very different, as they appear blue
 </li>
-        	<li class="M-Fact"></li>
+        	<li class="M-Fact">There is no intelligent life on Mars that we have discovered yet. But, scientists have reasons to think that there could be very simple forms of life that we haven't discovered. We think this because Earth and Mars are similar in so many ways <br> a) The two planets are very close to each other<br>b) It has a similar axis, or tilt, which gives it seasons just like Earth<br>c) Finally, it is made from rocks an minerals, which means it is terrestrial.</li>
+            <li class="M-Fact">Some people back in very early times thought there were canals which meant intelligent life. It was just an optical illusion from their telescope which proved them wrong. So why were these people so interested in Mars? Well, you can see it without a telescope and still find great detail.</li>
         </ul>
+        <p class="Mars-List">Mars is such an interesting planet!</p>
         
 		<p id="Image1-Credit">Image Credit: https://phys.org/news/2020-<br>05-astrobiologists-mars-rover-life-detecting-<br>equipment.html</p>
-        <h3 class="Header">Header#2</h1>
+        <h3 class="Header">Rovers</h1>
         <ul class="Mars-List">
-        	<li class="M-Fact">Fact#1</li>
-        	<li class="M-Fact">Fact#2</li>
-        	<li class="M-Fact">Fact#3</li>
-        	<li class="M-Fact">Fact#4</li>
+        	<h3 class="M-Fact">What are rovers? <br>Rovers are exploration vehicles for surfaces on planets and their moons - particularly Mars.</h3>
+        	<li class="M-Fact">The first rovers to land on Mars was in the 1990's by NASA.</li>
+        	<li class="M-Fact">Rovers are able to capture amazing 1.8 billion pixel panoramas that take 4 days to take and can be used for looking very closely for rocks and craters
+</li>
+        	<li class="M-Fact">The process of getting the rover onto Mars requires a lot of things coming out of other things, and finally we see the rover that is shown in pictures 
+</li>
+        	<li class="M-Fact">Rovers have provided so much information to us, here is just some: <br>a) They figured out why the surface of Mars is red (iron oxide [rust])<br>b)We have learned about the things that can cover the whole entire planet - mammoth dust storms<br>c) Again, we have found no life using rovers just yet</li>
         </ul>
         <img id="Rover_Img" src="random.jpg" alt="Nothing">
         <p id="Image2-Credit">Image Credit: www.examplecredit.org</p>
         <h3 class="Header">Header#3</h1>
+        <iframe id="Rover-video1" src='https://mars.nasa.gov/embed/24757/'    scrolling='no' frameborder='0'></iframe>
         <ul class="Mars-List">
         	<li class="M-Fact">Fact#1</li>
         	<li class="M-Fact">Fact#2</li>
@@ -87,6 +110,8 @@
         </ul>
          <img id="Rover_Img" src="random.jpg" alt="Nothing">
         <p id="Image2-Credit">Image Credit: www.examplecredit.org</p>
-        <p>Ɩ :ɹǝʍsu∀</p>
+        
+        <iframe src='https://mars.nasa.gov/embed/24757/'  scrolling='no' frameborder='0'></iframe>
+
     </body>
 </html>
